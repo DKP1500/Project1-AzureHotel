@@ -296,6 +296,10 @@ button.secondary, .button.secondary {
 	color: #DDDDDD;
 	font-size: .8rem;
 }
+
+#myModal span {
+	color: #80a8b7;
+}
  
 @media screen and (min-width: 40rem) {
 
