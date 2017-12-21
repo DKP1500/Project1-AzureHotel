@@ -1,0 +1,457 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+	height: 2.3rem;
+}
+
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+	padding: 0;
+}
+
+.top-bar .title-area {
+	background-color: #8ca5aa;
+}
+
+.top-bar {
+	background-color: #455A64;
+}
+
+.top-bar-section ul {
+	background-color: #455A64;
+}
+
+/* fonts */
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 3.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+/* feature */
+
+.feature {
+	background-color: #c9dae2;
+	background-image: url("../img/propeller2.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 70%;
+}
+
+.featurecontent {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.feature h1 {
+	font-size: 2rem;
+	color: #c9dae2;
+}
+
+.feature h4 {
+	padding: 0rem 0rem 1rem 0rem;
+	font-size: 1rem;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+.feature p {
+	color: #BDBDBD;
+	font-size: .8rem;
+	padding-top: 1rem;
+}
+
+
+.feature h1, .feature h4  {
+	line-height: 1.5rem;
+}
+
+
+@media screen and (min-width: 30rem) {
+
+	.feature {
+		height: 100%;
+	}
+
+	.feature h1 {
+		font-size: 3.5rem;
+		margin: 0;
+	}
+
+	.feature h4 {
+		font-size: 1.8rem;	
+		padding-bottom: 1rem;
+	}
+
+	.feature p {
+		color: #BDBDBD;
+		font-size: 1rem;
+	}
+
+	.feature h1, .feature h4  {
+		line-height: 3rem;
+	}
+
+}
+
+@media screen and (min-width: 50rem) {
+
+	.spacefix {
+		padding: 1rem 0rem 0rem 0rem;
+	}
+
+	.feature h4 {
+		font-size: 1.8rem;
+		border-bottom: 3.5px double #ffffff;
+	}
+
+}
+
+/* inclusions */
+
+.inclusions {
+	padding: 3rem 0;
+}
+
+.inclusions h1 {
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+.inclusions h2 {
+	font-weight: 500;
+	font-size: 1.5rem;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.inclusions h3 {
+	font-size: 1.2rem;
+	font-family: 'Abril Fatface', cursive;
+	padding-bottom: 3rem;
+	margin-top: 0;
+}
+
+.inclusions p {
+	font-size: .8rem;
+}
+
+@media screen and (min-width: 30rem) {
+
+	.inclusions h1 {
+		font-size: 3.5rem;
+	}
+
+	.inclusions h2 {
+		font-size: 2rem;
+	}
+
+	.inclusions h3 {
+		font-size: 1.5rem;
+		font-family: 'Abril Fatface', cursive;
+		padding-bottom: 3rem;
+	}
+
+	.inclusions p {
+		font-size: 1rem;
+	}
+
+}
+
+/* Relaxation */
+
+.relaxation {
+	background-color: #c9dae2;
+	padding: 0 0 3rem 0rem;
+}
+
+.relaxation h2 {
+	font-size: 1.5rem;
+	border-bottom: solid 4px #000;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.relaxation p {
+	font-size: .7rem;
+}
+
+.orbit-container .orbit-slides-container > * .orbit-caption {
+	
+}
+
+.orbit-container i {
+	font-size: .8rem;
+	padding-left: .5%;
+}
+
+@media screen and (min-width: 30rem) {
+
+	.relaxation h2 {
+		font-size: 2.2rem;
+	}
+
+	.relaxation p {
+		font-size: 1rem;
+	}
+
+}
+
+/* booking */
+
+.booking {
+	padding: 4rem 0 5rem 0;
+}
+
+.booking h1 {
+	font-size: 2.1rem;
+	margin: 0;
+	padding: 0;
+}
+
+.booking h3 {
+	padding-bottom: 3rem;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 1.2rem;
+}
+
+@media screen and (min-width: 30rem) {
+	
+	.booking h1 {
+		margin: 0;
+		font-size: 3.2rem;
+	}
+
+	.booking h3 {
+		padding-bottom: 4rem;
+		font-size: 1.5rem;
+	}
+
+}
+
+
+
+.booking button, .button {
+	display: block;
+	margin: 0;
+	background: #81a8b5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button.large, .button.large {
+	margin: 0;
+}
+
+button.secondary, .button.secondary {
+	background-color: transparent;
+	border: 2.5px solid #000;
+	display: block;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.feature button, .button {
+	display: inline-block;
+	font-family: 'Abril Fatface', cursive;
+	padding: .6rem 1.5rem;
+	margin-top: 1rem;
+	font-size: .5rem;
+}
+
+@media screen and (min-width: 30rem) {
+	
+	.feature button, .button {
+		padding: 1rem 2rem 1.0625rem 2rem;
+		font-size: 1rem;
+	}
+
+}
+
+.table {
+	background-color: #DDDDDD;
+}
+/* Pop Up Menu */
+
+#myModal {
+	background-image: url("../img/oldmap.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 100%;
+}
+
+#myModal h2 {
+	font-family: 'Abril Fatface', cursive;
+	color: #80a8b7;
+	font-size: 1.8rem;
+}
+
+#myModal p {
+	color: #DDDDDD;
+	font-size: .8rem;
+}
+ 
+@media screen and (min-width: 40rem) {
+
+	#myModal {
+		padding: 1rem 2.5% 3rem 2.5%;
+		background-image: url("../img/oldmap.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+
+	#myModal h2 {
+		font-family: 'Abril Fatface', cursive;
+		color: #80a8b7;
+		padding: 1rem 0rem 1rem 0rem;
+		font-size: 2.3rem;
+	}
+
+	#myModal p {
+		color: #DDDDDD;
+		font-size: 1.2rem;
+	}
+
+}
+
+/* accordion menu */
+
+.accordion .accordion-navigation > a, .accordion dd > a {
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+	font-weight: 400;
+}
+
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+	background-color: #ffffff;
+}
+
+.accordion .accordion-navigation > a:hover, .accordion dd > a:hover  {
+	background: #C1C1C1;
+}
+
+#panel1a h4, #panel2a h4, #panel3a h4{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 1.8rem;
+}
+
+.accordion p {
+	font-size: .8rem;
+}
+
+@media screen and (min-width: 30rem) {
+
+	.accordion p {
+		font-size: 1rem;
+	}
+
+}
+
+/* rooms */
+
+.rooms {
+	padding: 4rem 0 5rem 0;
+	background-color: #DDDDDD;
+}
+
+.roomtitle {
+	background-color: #DDDDDD;
+	margin: 0;
+	font-weight: 500;
+	height: 100%;
+}
+
+.rooms h1 {
+	font-size: 2.5rem;
+}
+
+.rooms h3 {
+	padding: 0 0 4rem 0;
+	font-size: 1.2rem;
+	font-family: 'Abril Fatface', cursive;
+}
+
+@media screen and (min-width: 30rem) {
+
+	.rooms h1 {
+		font-size: 3.5rem;
+	}
+
+	.rooms h3 {
+		font-size: 1.5rem;
+	}
+
+}
+
+/* footer */
+
+footer {
+	background-color: #a7a8a8;
+	padding: 3rem 0rem;
+	overflow: hidden;
+	color: #000;
+	background-image: url("../img/marbletexture.jpg");
+}
+
+footer h2 {
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+	padding: 0rem 0rem 1rem 0rem;
+}
+
+footer p {
+	text-align: center;
+	margin: 0;
+}
+
+footer ul {
+	list-style: none;
+	text-align: center;
+	padding: 0.5rem 0;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 0rem 1.2rem;
+	text-align: center;
+	color: #000;
+}
+
+footer .fa {
+	color: #000;
+}
+
+@media screen and (min-width: 35rem) {
+
+	footer ul li {
+		padding: 0rem .8rem;
+	}
+
+}
+
+@media screen and (min-width: 60rem) {
+
+	footer ul li {
+		padding: 0rem 1.3rem;
+	}
+
+
+}
+
+
+
+
+
