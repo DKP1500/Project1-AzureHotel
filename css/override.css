@@ -11,16 +11,16 @@ body {
 	padding: 0;
 }
 
-.top-bar .title-area {
-	background-color: #8ca5aa;
-}
-
 .top-bar {
 	background-color: #455A64;
 }
 
 .top-bar-section ul {
 	background-color: #455A64;
+}
+
+.top-bar-section ul li > a {
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* fonts */
@@ -68,6 +68,7 @@ h3 {
 	color: #BDBDBD;
 	font-size: .8rem;
 	padding-top: 1rem;
+	font-weight: 400;
 }
 
 
@@ -142,6 +143,7 @@ h3 {
 
 .inclusions p {
 	font-size: .8rem;
+	font-weight: 300;
 }
 
 @media screen and (min-width: 30rem) {
@@ -181,10 +183,6 @@ h3 {
 
 .relaxation p {
 	font-size: .7rem;
-}
-
-.orbit-container .orbit-slides-container > * .orbit-caption {
-	
 }
 
 .orbit-container i {
@@ -235,8 +233,6 @@ h3 {
 	}
 
 }
-
-
 
 .booking button, .button {
 	display: block;
@@ -354,6 +350,7 @@ button.secondary, .button.secondary {
 
 .accordion p {
 	font-size: .8rem;
+	font-weight: 300;
 }
 
 @media screen and (min-width: 30rem) {
@@ -414,6 +411,8 @@ footer h2 {
 	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 	padding: 0rem 0rem 1rem 0rem;
+	margin: 0;
+	line-height: 1;
 }
 
 footer p {
