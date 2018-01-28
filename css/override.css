@@ -366,13 +366,7 @@ button.secondary, .button.secondary {
 .rooms {
 	padding: 4rem 0 5rem 0;
 	background-color: #DDDDDD;
-}
-
-.roomtitle {
-	background-color: #DDDDDD;
-	margin: 0;
-	font-weight: 500;
-	height: 100%;
+	background-image: url("../img/marbletexture2.png");
 }
 
 .rooms h1 {
