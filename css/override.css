@@ -32,7 +32,9 @@ h1 {
 
 h3 {
 	font-size: 2rem;
-	font-weight: 400;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
 }
 
 /* feature */
@@ -135,8 +137,7 @@ h3 {
 }
 
 .inclusions h3 {
-	font-size: 1.2rem;
-	font-family: 'Abril Fatface', cursive;
+	font-size: 1rem;
 	padding-bottom: 3rem;
 	margin-top: 0;
 }
@@ -157,8 +158,7 @@ h3 {
 	}
 
 	.inclusions h3 {
-		font-size: 1.5rem;
-		font-family: 'Abril Fatface', cursive;
+		font-size: 1.3rem;
 		padding-bottom: 3rem;
 	}
 
@@ -194,6 +194,7 @@ h3 {
 
 	.relaxation h2 {
 		font-size: 2.2rem;
+		font-family: 'Abril Fatface', cursive;
 	}
 
 	.relaxation p {
@@ -216,8 +217,7 @@ h3 {
 
 .booking h3 {
 	padding-bottom: 3rem;
-	font-family: 'Abril Fatface', cursive;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 @media screen and (min-width: 30rem) {
@@ -229,7 +229,7 @@ h3 {
 
 	.booking h3 {
 		padding-bottom: 4rem;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 	}
 
 }
@@ -243,6 +243,8 @@ h3 {
 
 button.large, .button.large {
 	margin: 0;
+	text-transform: none;
+	letter-spacing: 0;
 }
 
 button.secondary, .button.secondary {
@@ -251,6 +253,8 @@ button.secondary, .button.secondary {
 	display: block;
 	margin: 0 auto;
 	font-family: 'Montserrat', sans-serif;
+	text-transform: none;
+	letter-spacing: 0;
 }
 
 .feature button, .button {
@@ -259,6 +263,8 @@ button.secondary, .button.secondary {
 	padding: .6rem 1.5rem;
 	margin-top: 1rem;
 	font-size: .5rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 @media screen and (min-width: 30rem) {
@@ -273,6 +279,11 @@ button.secondary, .button.secondary {
 .table {
 	background-color: #DDDDDD;
 }
+
+input:not([type]), input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+	border: 1px solid #DDDDDD;
+}
+
 /* Pop Up Menu */
 
 #myModal {
@@ -375,8 +386,8 @@ button.secondary, .button.secondary {
 
 .rooms h3 {
 	padding: 0 0 4rem 0;
-	font-size: 1.2rem;
-	font-family: 'Abril Fatface', cursive;
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (min-width: 30rem) {
@@ -386,7 +397,7 @@ button.secondary, .button.secondary {
 	}
 
 	.rooms h3 {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 	}
 
 }
