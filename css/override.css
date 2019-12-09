@@ -8,6 +8,11 @@ body {
 	padding-left: .4rem;
 }
 
+.title-area:hover {
+	opacity: .7;
+	transition-duration: .2s;
+}
+
 .title-area {
 	padding-top: .25rem;
 }
@@ -29,6 +34,11 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	height: 3.5rem;
 	padding: .35rem 1.1rem 0 1.1rem !important;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color: #D4B151;
+	transition-duration: .4s;
 }
 
 /* fonts */
@@ -53,11 +63,12 @@ h3 {
 	background-size: cover;
 	background-position: center;
 	height: 70%;
+	background-repeat: no-repeat;
 }
 
 .featurecontent {
 	position: relative;
-	top: 50%;
+	top: 48%;
 	transform: translateY(-50%);
 }
 
@@ -190,6 +201,11 @@ h3 {
 	font-family: 'Abril Fatface', cursive;
 }
 
+.relaxation .row {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 .relaxation p {
 	font-size: .7rem;
 }
@@ -247,7 +263,14 @@ h3 {
 	display: block;
 	margin: 0;
 	background: #81a8b5;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif !important;
+	text-transform: uppercase !important;
+	font-size: 14px !important;
+	letter-spacing: .3px !important;
+}
+
+.booking .button:hover {
+	background-color: #D4B151;
 }
 
 button.large, .button.large {
@@ -271,9 +294,13 @@ button.secondary, .button.secondary {
 	font-family: 'Abril Fatface', cursive;
 	padding: .6rem 1.5rem;
 	margin-top: 1rem;
-	font-size: .5rem;
+	font-size: 14px!important;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: .3px;
+}
+
+.feature .button:hover {
+	background-color: #D4B151;
 }
 
 @media screen and (min-width: 30rem) {
@@ -360,7 +387,8 @@ input:not([type]), input[type="text"], input[type="password"], input[type="date"
 }
 
 .accordion .accordion-navigation > a:hover, .accordion dd > a:hover  {
-	background: #C1C1C1;
+	background: rgba(212, 177, 81, .5);
+	transition-duration: .4s;
 }
 
 #panel1a h4, #panel2a h4, #panel3a h4{
